@@ -6,11 +6,14 @@ Step by step no terminal:
 
  - 1 npm install
    
+ - 2 docker-compose up -d (para rodar container do postgres)
+   
    (Precisa do docker e docker-compose instalado)
    
- - 2 docker-compose up -d (para rodar container do postgres)
  
  - 3 npm run dev:server (iniciar o servidor)
+ 
+ - 4 npm run typeorm migration:run (Gerar tabelas no banco de dados)
  
   *Build
   
