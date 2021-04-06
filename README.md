@@ -9,6 +9,7 @@ Step by step no terminal:
  - 2 docker-compose up -d (para rodar container do postgres)
    
    (Precisa do docker e docker-compose instalado)
+   (Precisa configurar tambem o env e o banco de dados)
    
  
  - 3 npm run dev:server (iniciar o servidor)
